@@ -1,0 +1,15 @@
+{
+    "remotePath": "./homeprince",
+    "host": "access775018465.webspace-data.io",
+    "username": "u96630164",
+    "password": "yaP9Aru99AKa+",
+    "port": 22,
+    "secure": true,
+    "protocol": "sftp",
+    "uploadOnSave": false,
+    "ignore": [
+        "\\.vscode",
+        "\\.git",
+        "\\.DS_Store"
+    ]
+}
