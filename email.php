@@ -14,7 +14,7 @@
     $subject = $_POST['subject'];
     $message = $_POST['message'];
 
-    $to = "contact@homeprince.princelle.org";
+    $to = "contact-maxime@princelle.org";
 	$sub = "Msg de $namexp : $subject";
     $contenu = "<b>Nom expéditeur: </b> $namexp <br> <b>Email expéditeur: </b> $mailexp <br> <b>Numéro de téléphone: </b> $subject <br><br> <b>Message: </b><br> $message";
 
@@ -34,8 +34,8 @@
         $mail->Port = 587;                                    // TCP port to connect to
 
         //Recipients
-        $mail->setFrom('contact@princelle.org', 'Formulaire de contact - princelle.org');
-        $mail->addAddress($to, 'Contact - Maxime Princelle');
+        $mail->setFrom('contact@homeprince.princelle.org', 'Formulaire de contact - homeprince.princelle.org');
+        $mail->addAddress($to, 'Contact - HomePrince');
         $mail->AddReplyTo($mailexp, $namexp);
 
         //Content

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Funder &mdash; Colorlib Website Template</title>
+    <title>Contactez-nous</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -90,33 +90,33 @@
           
             
           
-            <form action="email.php" class="p-5 bg-white">
+            <form action="email.php" method="POST" class="p-5 bg-white">
 
               <div class="row form-group">
                 <div class="col-md-12 mb-3 mb-md-0">
                   <label class="font-weight-bold" for="name">Nom</label>
-                  <input type="text" id="name" class="form-control" placeholder="Nom">
+                  <input type="text" id="name" name="name" class="form-control" placeholder="Insérez ici votre nom.">
                 </div>
               </div>
               <div class="row form-group">
                 <div class="col-md-12">
                   <label class="font-weight-bold" for="emailcontact">Email</label>
-                  <input type="email" id="emailcontact" class="form-control" placeholder="Adresse Mail">
+                  <input type="email" id="emailcontact" name="emailcontact" class="form-control" placeholder="Insérez une adresse mail valide">
                 </div>
               </div>
 
 
               <div class="row form-group">
                 <div class="col-md-12 mb-3 mb-md-0">
-                  <label class="font-weight-bold" for="subject">Numéro de téléphone</label>
-                  <input type="text" id="subject" class="form-control" placeholder="Numéro de téléphone">
+                  <label class="font-weight-bold" for="subject">Sujet</label>
+                  <input type="text" id="subject" name="subject" class="form-control" placeholder="Insérez ici le sujet de votre message.">
                 </div>
               </div>
 
               <div class="row form-group">
                 <div class="col-md-12">
                   <label class="font-weight-bold" for="message">Message</label> 
-                  <textarea name="message" id="message" cols="30" rows="5" class="form-control" placeholder="Ecrivez nous votre message"></textarea>
+                  <textarea name="message" id="message" name="message" cols="30" rows="5" class="form-control" placeholder="Insérez ici le contenu de votre message."></textarea>
                 </div>
               </div>
 
